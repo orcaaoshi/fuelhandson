@@ -2,6 +2,8 @@
 
 class Controller_Api extends Controller_Rest
 {
+	protected $format = 'json';
+
 	public function get_list()
 	{
 		return \Model_Bb::find('all');
