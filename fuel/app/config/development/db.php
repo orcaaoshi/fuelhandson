@@ -6,7 +6,7 @@
 return array(
 	'default' => array(
 		'connection'  => array(
-			'dsn'        => 'mysql:host=localhost;port=8889;dbname=fuelhandson',
+			'dsn'        => 'mysql:host=127.0.0.1;port=8889;dbname=fuelhandson',
 			'username'   => 'fuelhandson',
 			'password'   => '',
 		),
